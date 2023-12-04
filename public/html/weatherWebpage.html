@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/weatherStyle.css">
+    <title>What's The Weather?</title>
+</head>
+<body>
+    <div id="container">
+    <div id="header_container">
+        <div id="title_box">
+            <img src="https://images.squarespace-cdn.com/content/v1/61523d2e16c0a61cdafdab74/314d2a27-bb1b-46f6-99a3-298b22f0fc13/inclement_weather-450.png" alt="weather logo">
+            <h1 id="title"> The Weather Channel</h1>
+        </div>
+        <div id="input_box">
+            <input type="text" id="city_choice" name="city" placeholder="Search City">
+            <button onclick="getWeather()">Submit</button>
+        </div>
+    </div>
+    
+    <div id="weather_info">
+        <div class="weather_card">
+            <h4 class="city"></h4>
+            <div class="condition_card">
+                <h1 id="temp"></h1>
+                <h3 class="condition"></h3>
+            </div>
+            <h5 class="precip"></h5>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    <script src="/js/weatherScript.js"></script>
+</body>
+</html>

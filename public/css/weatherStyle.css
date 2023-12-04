@@ -1,0 +1,66 @@
+
+body{
+    text-align: center;
+    background-image: linear-gradient(#8DE4FF, #125E8A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 53rem;
+    padding-bottom: 5rem;
+}
+
+#title_box{
+    display: flex;
+    gap: 4px;
+}
+
+img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+#title{
+    color: white;
+}
+
+#weather_info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.weather_card{
+    border: white 5px outset;
+    border-radius: 10px;
+    width: 250px;
+    background-color: #8AC4FF;
+    font-size: 150%;
+}
+
+.city{
+    margin-bottom: 0;
+}
+
+.condition_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.condition{
+    font-size: 200%;
+}
+
+.precip{
+    margin-top: 0;
+}
+
